@@ -1,0 +1,6 @@
+@TechTitleService_HostAddress = http://localhost:5030
+
+GET {{TechTitleService_HostAddress}}/frontend/
+Accept: application/json
+
+###
