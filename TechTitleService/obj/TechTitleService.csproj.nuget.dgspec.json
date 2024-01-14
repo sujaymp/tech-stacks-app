@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\personal\\data\\prep\\.net\\microservice\\TechTitleService\\TechTitleService.csproj": {}
+    "D:\\personal\\data\\prep\\.net\\microservice\\src\\tech-stacks-app\\TechTitleService\\TechTitleService.csproj": {}
   },
   "projects": {
-    "D:\\personal\\data\\prep\\.net\\microservice\\TechTitleService\\TechTitleService.csproj": {
+    "D:\\personal\\data\\prep\\.net\\microservice\\src\\tech-stacks-app\\TechTitleService\\TechTitleService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\personal\\data\\prep\\.net\\microservice\\TechTitleService\\TechTitleService.csproj",
+        "projectUniqueName": "D:\\personal\\data\\prep\\.net\\microservice\\src\\tech-stacks-app\\TechTitleService\\TechTitleService.csproj",
         "projectName": "TechTitleService",
-        "projectPath": "D:\\personal\\data\\prep\\.net\\microservice\\TechTitleService\\TechTitleService.csproj",
+        "projectPath": "D:\\personal\\data\\prep\\.net\\microservice\\src\\tech-stacks-app\\TechTitleService\\TechTitleService.csproj",
         "packagesPath": "C:\\Users\\sujpur\\.nuget\\packages\\",
-        "outputPath": "D:\\personal\\data\\prep\\.net\\microservice\\TechTitleService\\obj\\",
+        "outputPath": "D:\\personal\\data\\prep\\.net\\microservice\\src\\tech-stacks-app\\TechTitleService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\sujpur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -68,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

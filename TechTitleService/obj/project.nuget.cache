@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PPKk4J/UF2dhQWg4KyVVGUd2S8M4QDbm9bNANOt2NEGsn6zLt1ZtIBL4ek89yZ0FLgHPrNjaRXOf6zkrHB0xaA==",
+  "dgSpecHash": "qPMlaDEyYx4gdR7Na8pRGTirmUwXWyTHy99OI3PcRScgNglQs9BSbKa9a9IQHNKnafcH9MXF2N0eZFb3ZL1K4A==",
   "success": true,
-  "projectFilePath": "D:\\personal\\data\\prep\\.net\\microservice\\TechTitleService\\TechTitleService.csproj",
+  "projectFilePath": "D:\\personal\\data\\prep\\.net\\microservice\\src\\tech-stacks-app\\TechTitleService\\TechTitleService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sujpur\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\sujpur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

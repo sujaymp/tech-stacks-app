@@ -21,12 +21,10 @@ var frontend = new[]
 
 app.MapGet("/frontend", () =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
+    var forecast =  frontend.Select(index =>
         new FrontEnd
         (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            frontend[Random.Shared.Next(frontend.Length)]
+            Name: index               
         ))
         .ToArray();
     return forecast;
@@ -36,7 +34,4 @@ app.MapGet("/frontend", () =>
 
 app.Run();
 
-record FrontEnd(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+public record FrontEnd(string Name);
